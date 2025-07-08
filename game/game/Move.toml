@@ -1,0 +1,10 @@
+[package]
+name = "game"
+edition = "2024.beta"
+published-at = "0x2e5ba180f53d8aa73de26e03435abe6ac8f182a383ce8a99f4aaca8a76fc7979"
+
+[dependencies]
+
+[addresses]
+game = "0x2e5ba180f53d8aa73de26e03435abe6ac8f182a383ce8a99f4aaca8a76fc7979"
+sui = "0x2"
