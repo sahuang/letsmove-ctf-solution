@@ -1,0 +1,9 @@
+[package]
+name = "bribery_voting"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+published-at = "0xba87679dae089213e3efed1330cfc02746af3dc27ce4a45f7066de1ef440d34e"
+
+[dependencies]
+
+[addresses]
+bribery_voting = "0xba87679dae089213e3efed1330cfc02746af3dc27ce4a45f7066de1ef440d34e"
