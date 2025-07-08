@@ -1,0 +1,11 @@
+[package]
+name = "solve_week2"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+
+[dependencies.week2]
+local = "../week2"
+
+[addresses]
+solve_week2 = "0x0"
+sui = "0x2"
+week2 = "0x0d026a32bba57cfeeac87571bdd1913f0ace336eb40744ac7e9150a59ef87911"
