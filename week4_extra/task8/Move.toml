@@ -1,0 +1,10 @@
+[package]
+name = "task8"
+edition = "2024.beta"
+published-at = "0x6159940b13e75bbe27937d33bab22a6f29e86a749cd694888798eb0a196908b6"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+task8 = "0x6159940b13e75bbe27937d33bab22a6f29e86a749cd694888798eb0a196908b6"

@@ -1,0 +1,10 @@
+[package]
+name = "solve_task8"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+
+[dependencies.task8]
+local = "../task8"
+
+[addresses]
+solve_task8 = "0x0"
+task8 = "0x6159940b13e75bbe27937d33bab22a6f29e86a749cd694888798eb0a196908b6"
