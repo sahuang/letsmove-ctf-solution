@@ -1,0 +1,23 @@
+{
+  "name": "sui-ptb-potato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm --disable-warning=ExperimentalWarning src/potato.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.35.0",
+    "axios": "^1.10.0"
+  }
+}
